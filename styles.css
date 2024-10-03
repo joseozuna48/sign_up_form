@@ -97,6 +97,10 @@ body,html{
     width: 100%;
 }
 
+.img-credit a{
+  color: white;
+}
+
 a:visited{
     color: white;
 }
