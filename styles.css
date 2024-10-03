@@ -51,8 +51,10 @@
     isolation: isolate;
   }
 
+
 body,html{
     min-height: 100vh;
+    font-family: "Roboto";
 }
 
 @font-face {
@@ -109,10 +111,18 @@ a:visited{
     gap: 40px;
 }
 
+h2 span{
+  font-style: italic;
+}
+
 .form-header{
     max-width: 900px;
     padding-left: 40px;
+    display: flex;
+    flex-direction: column;
+    gap:30px;
 }
+
 
 fieldset{
     padding: 20px 0 20px 40px;
@@ -123,6 +133,7 @@ fieldset{
 
 fieldset h3{
   font-size: 1.8rem;
+  margin-bottom: 20px;
 }
 
 .row{
@@ -134,6 +145,10 @@ fieldset h3{
 .row div{
     display: flex;
     flex-direction: column;
+}
+
+label{
+  color: rgb(0, 0, 0,0.7);
 }
 
 input{
