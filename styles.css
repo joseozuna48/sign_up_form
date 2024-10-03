@@ -153,6 +153,19 @@ label{
 
 input{
     max-width: 250px;
+    border-color: #E5E7EB;
+    border-radius: 5px;
+    outline: none;
+}
+
+input:focus{
+  border: 2px solid lightblue;
+  box-shadow: 1px 1px 5px lightblue;
+}
+
+input[type="password"]:invalid{
+  border: 1px solid red;
+  box-shadow: 1px 1px 5px red;
 }
 
 button[type="submit"]{
