@@ -11,7 +11,7 @@
 <body>
     <div class="image-section">
         <div class="logo">
-            <img src="./odin-lined.png" alt="" width="50rem" height="auto">
+            <img src="./odin-lined.png" alt="" width="80rem" height="auto">
             <p>Odin</p>
         </div>
 
@@ -35,41 +35,51 @@
             </h2>
         </div>
 
-        <div class="form-container">
-            <h3>Let's do this!</h3>
-            <form action="">
-                <div>
-                    <label for="first_name">First Name</label>
-                    <input type="text" id="first_name" name="first_name">
-                </div>
-                <div>
-                    <label for="last_name">Last Name</label>
-                    <input type="text" id="last_name" name="last_name">
+
+        <form action="">
+            <fieldset>
+                <h3>Let's do this!</h3>
+                <div class="row">
+                    <div>
+                        <label for="first_name">First Name</label>
+                        <input type="text" id="first_name" name="first_name">
+                    </div>
+                    <div>
+                        <label for="last_name">Last Name</label>
+                        <input type="text" id="last_name" name="last_name">
+                    </div>
                 </div>
 
-                <div>
-                    <label for="email">Email</label>
-                    <input type="email" name="email" id="email">
+                <div class="row">
+                    <div>
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email">
+                    </div>
+
+                    <div>
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" name="phone" id="phone">
+                    </div>
                 </div>
 
-                <div>
-                    <label for="phone">Phone Number</label>
-                    <input type="tel" name="phone" id="phone">
+
+                <div class="row">
+                    <div>
+                        <label for="password">Password</label>
+                        <input type="password" name="password" id="password">
+                    </div>
+
+                    <div>
+                        <label for="conf_password">Confirm Password</label>
+                        <input type="password" name="conf_password" id="conf_password">
+                    </div>
                 </div>
 
-                <div>
-                    <label for="password">Password</label>
-                    <input type="password" name="password" id="password">
-                </div>
+            </fieldset>
 
-                <div>
-                    <label for="conf_password">Confirm Password</label>
-                    <input type="password" name="conf_password" id="conf_password">
-                </div>
-
-                <button type="submit">Create Account</button>
-            </form>
-        </div>
+            <button type="submit">Create Account</button>
+        </form>
+        <p>Already have an account? <a>Log in</a>  </p>
     </div>
 
 </body>
